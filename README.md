@@ -2,7 +2,7 @@
 
 Cli tool and generator for [VuePack](https://github.com/egoist/vuepack)
 
-## install
+## Install
 
 If you are using Windows you should install UNIX tools brought by Git for Windows.
 
