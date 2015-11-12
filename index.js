@@ -6,6 +6,7 @@ module.exports = (argv) => {
       init(argv)
       break
     default:
+      log.warn('Bad options:', argv._)
       return
   }
 }
