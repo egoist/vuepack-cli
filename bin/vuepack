@@ -2,4 +2,10 @@
 
 global.log = require('typelog')
 const argv = require('minimist')(process.argv.slice(2), { '--': true })
+
+if (argv.v || argv.version) {
+  console.log(require('../package').version)
+  return
+}
+
 require('..')(argv)
