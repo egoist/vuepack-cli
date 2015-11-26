@@ -14,6 +14,8 @@ npm install -g vuepack
 
 ```bash
 vue init HelloWorld
+# for chinese users
+vue init HelloWorld --cn
 ```
 
 ## License
