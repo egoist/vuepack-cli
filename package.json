@@ -1,6 +1,6 @@
 {
   "name": "vuepack",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "cli tool for vuepack",
   "main": "index.js",
   "scripts": {

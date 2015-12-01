@@ -20,6 +20,8 @@ vue init HelloWorld --cn
 # check out all available versions at
 # https://github.com/egoist/vuepack/releases
 vue init HelloWorld --tag 0.0.2
+# be more verbose
+vue init HelloWorld --verbose
 ```
 
 ## License
