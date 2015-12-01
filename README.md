@@ -16,6 +16,10 @@ npm install -g vuepack
 vue init HelloWorld
 # for chinese users
 vue init HelloWorld --cn
+# a specific version of Vuepack
+# check out all available versions at
+# https://github.com/egoist/vuepack/releases
+vue init HelloWorld --tag 0.0.2
 ```
 
 ## License
