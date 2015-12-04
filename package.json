@@ -1,6 +1,6 @@
 {
   "name": "vuepack",
-  "version": "0.1.41",
+  "version": "0.1.5",
   "description": "cli tool for vuepack",
   "main": "index.js",
   "scripts": {
@@ -37,6 +37,7 @@
     "path-exists": "^2.0.0",
     "shelljs": "^0.5.3",
     "typelog": "^0.1.1",
+    "update-notifier": "^0.6.0",
     "user-home": "^2.0.0"
   },
   "engine": {

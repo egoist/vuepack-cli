@@ -22,6 +22,8 @@ vue init HelloWorld --cn
 vue init HelloWorld --tag 0.0.2
 # be more verbose
 vue init HelloWorld --verbose
+# generate a component
+vue g/generate component counter
 ```
 
 ## License
