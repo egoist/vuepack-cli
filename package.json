@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/egoist/vuepack-cli#readme",
   "dependencies": {
+    "colorful": "^2.1.0",
     "download": "^4.4.1",
     "elegant-spinner": "^1.0.1",
     "log-update": "^1.0.2",

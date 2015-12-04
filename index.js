@@ -1,12 +1,14 @@
 const init = require('./lib/init')
+const generate = require('./lib/generate')
 
-module.exports = (argv) => {
+module.exports = () => {
   switch (argv._[0]) {
     case 'init':
-      init(argv)
-      break
+      return init()
+    case 'generate':
+    case 'g':
+      return generate()
     default:
-      log.warn('Bad options:', argv._)
-      return
+      return log.warn('Bad options:', argv._)
   }
 }

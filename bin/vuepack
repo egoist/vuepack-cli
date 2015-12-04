@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 global.log = require('typelog')
-const argv = require('minimist')(process.argv.slice(2), { '--': true })
+global.argv = require('minimist')(process.argv.slice(2), { '--': true })
+require('colorful').toxic()
 
 if (argv.v || argv.version) {
   console.log(require('../package').version)
-  return
+  process.exit()
 }
 
-require('..')(argv)
+require('..')()
